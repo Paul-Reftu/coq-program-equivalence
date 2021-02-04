@@ -1,0 +1,47 @@
+-R . Equiv
+
+###### Basics ######
+./Basics/Aux.v
+./Basics/Identifier.v
+./Basics/Map.v
+
+###### Languages ######
+  ###### WHILE ######
+  ./Languages/WHILE/Syntax.v
+  ./Languages/WHILE/Semantics.v
+
+  ###### LC (Lambda calculus) ######
+  ./Languages/LC/Syntax.v
+  ./Languages/LC/Semantics.v
+  ./Languages/LC/ChurchEncoding.v
+
+  ###### Fun ######
+  ./Languages/Fun/Syntax.v
+  ./Languages/Fun/Semantics.v
+
+  ###### Spass ######
+  ./Languages/Spass/Syntax.v
+  ./Languages/Spass/Semantics.v
+
+###### Programs ######
+./Programs/LC.v
+./Programs/Spass.v
+
+  ###### WHILE ######  
+  ./Programs/WHILE/CodeHoisting.v
+  ./Programs/WHILE/LICM.v
+  ./Programs/WHILE/LoopPeeling.v
+  ./Programs/WHILE/LoopInterchange.v
+  ./Programs/WHILE/SoftwarePipelining.v
+  ./Programs/WHILE/Other.v
+
+###### Tactics ######
+./ProgramEquivalence/Tactics/WHILE.v
+./ProgramEquivalence/Tactics/LC.v
+./ProgramEquivalence/Tactics/Fun.v
+./ProgramEquivalence/Tactics/Spass.v
+
+###### Proofs ######
+./ProgramEquivalence/Proofs/WHILE.v
+./ProgramEquivalence/Proofs/Fun.v
+./ProgramEquivalence/Proofs/Spass.v
